@@ -5,15 +5,12 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="20,0"
+            Padding="50,0"
             
-            Spacing="25">
-            
-
-            <Label Text="Gallery" Style="{StaticResource Headline}" SemanticProperties.HeadingLevel="Level1" />
-
+            Spacing="10">
+           
             <Image Source="{Binding Images}" x:Name="ShowImage" HeightRequest="350" WidthRequest="200"/>
-            <Label FontSize="30" Text="" x:Name="ImageLabel" />
+            <Label HorizontalOptions="Center" FontSize="30" Text="" x:Name="ImageLabel" />
 
             <ImageButton
             Source="hearticon.png"
